@@ -1,0 +1,40 @@
+.todos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.todos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.todos-header h1 {
+  font-size: 2rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info span {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.todos-header .btn-logout {
+  width: auto;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
